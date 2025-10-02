@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Gerenciamento de Tarefas com PHP-Laravel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #eaecef;
+            color: #586069;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <article class="markdown-body">
+            <!-- Conteúdo do README.md será inserido aqui via JavaScript ou manualmente -->
+            <h1>API de Gerenciamento de Tarefas com PHP-Laravel</h1>
+            <p>Uma API RESTful robusta e escalável para gerenciamento de tarefas, construída com PHP e Laravel. Este projeto demonstra as melhores práticas de desenvolvimento de API, incluindo autenticação, validação, tratamento de erros e testes automatizados.</p>
+
+            <h2>🖼️ Imagem Hero</h2>
+            <img src="docs/hero-image.png" alt="Imagem Hero da API de Gerenciamento de Tarefas com PHP-Laravel" class="hero-image">
+
+            <h2>✨ Funcionalidades</h2>
+            <ul>
+                <li><strong>Autenticação de Usuários</strong>: Sistema completo de registro e login com Sanctum.</li>
+                <li><strong>CRUD de Tarefas</strong>: Crie, leia, atualize e exclua tarefas.</li>
+                <li><strong>Validação de Dados</strong>: Validação robusta de todas as entradas da API.</li>
+                <li><strong>Tratamento de Erros</strong>: Tratamento de erros padronizado e informativo.</li>
+                <li><strong>Testes Automatizados</strong>: Testes unitários e de funcionalidades com PHPUnit.</li>
+            </ul>
+
+            <h2>🚀 Tecnologias Utilizadas</h2>
+            <ul>
+                <li><strong>PHP 8.1</strong></li>
+                <li><strong>Laravel 9</strong></li>
+                <li><strong>MySQL</strong></li>
+                <li><strong>Composer</strong></li>
+                <li><strong>PHPUnit</strong></li>
+                <li><strong>Git</strong></li>
+            </ul>
+
+            <h2>🔧 Instalação e Execução</h2>
+            <ol>
+                <li><strong>Clone o repositório:</strong>
+                    <pre><code>git clone https://github.com/galafis/PHP-Laravel-API.git</code></pre>
+                </li>
+                <li><strong>Instale as dependências:</strong>
+                    <pre><code>composer install</code></pre>
+                </li>
+                <li><strong>Configure o ambiente:</strong>
+                    <pre><code>cp .env.example .env
+php artisan key:generate</code></pre>
+                </li>
+                <li><strong>Execute as migrações do banco de dados:</strong>
+                    <pre><code>php artisan migrate</code></pre>
+                </li>
+                <li><strong>Inicie o servidor de desenvolvimento:</strong>
+                    <pre><code>php artisan serve</code></pre>
+                </li>
+            </ol>
+
+            <h2>🧪 Executando os Testes</h2>
+            <pre><code>php artisan test</code></pre>
+
+            <h2>✒️ Autor</h2>
+            <p><strong>Gabriel Demetrios Lafis</strong></p>
+
+            <hr>
+
+            <h1>Task Management API with PHP-Laravel</h1>
+            <p>A robust and scalable RESTful API for task management, built with PHP and Laravel. This project demonstrates best practices for API development, including authentication, validation, error handling, and automated testing.</p>
+
+            <h2>🖼️ Hero Image</h2>
+            <img src="docs/hero-image.png" alt="Hero Image of the Task Management API with PHP-Laravel" class="hero-image">
+
+            <h2>✨ Features</h2>
+            <ul>
+                <li><strong>User Authentication</strong>: Complete registration and login system with Sanctum.</li>
+                <li><strong>Task CRUD</strong>: Create, read, update, and delete tasks.</li>
+                <li><strong>Data Validation</strong>: Robust validation of all API inputs.</li>
+                <li><strong>Error Handling</strong>: Standardized and informative error handling.</li>
+                <li><strong>Automated Tests</strong>: Unit and feature tests with PHPUnit.</li>
+            </ul>
+
+            <h2>🚀 Technologies Used</h2>
+            <ul>
+                <li><strong>PHP 8.1</strong></li>
+                <li><strong>Laravel 9</strong></li>
+                <li><strong>MySQL</strong></li>
+                <li><strong>Composer</strong></li>
+                <li><strong>PHPUnit</strong></li>
+                <li><strong>Git</strong></li>
+            </ul>
+
+            <h2>🔧 Installation and Execution</h2>
+            <ol>
+                <li><strong>Clone the repository:</strong>
+                    <pre><code>git clone https://github.com/galafis/PHP-Laravel-API.git</code></pre>
+                </li>
+                <li><strong>Install the dependencies:</strong>
+                    <pre><code>composer install</code></pre>
+                </li>
+                <li><strong>Configure the environment:</strong>
+                    <pre><code>cp .env.example .env
+php artisan key:generate</code></pre>
+                </li>
+                <li><strong>Run the database migrations:</strong>
+                    <pre><code>php artisan migrate</code></pre>
+                </li>
+                <li><strong>Start the development server:</strong>
+                    <pre><code>php artisan serve</code></pre>
+                </li>
+            </ol>
+
+            <h2>🧪 Running the Tests</h2>
+            <pre><code>php artisan test</code></pre>
+
+            <h2>✒️ Author</h2>
+            <p><strong>Gabriel Demetrios Lafis</strong></p>
+        </article>
+    </div>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="https://github.com/galafis" target="_blank">Gabriel Demetrios Lafis</a> | <a href="https://github.com/galafis/PHP-Laravel-API" target="_blank">Ver no GitHub</a></p>
+    </footer>
+</body>
+</html>
+
