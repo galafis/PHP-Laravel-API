@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Gerenciamento de Tarefas - Documentação</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 800px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1, h2 { color: #333; }
+        pre { background: #eee; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        code { font-family: "Courier New", Courier, monospace; }
+        .footer { text-align: center; margin-top: 30px; font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>API de Gerenciamento de Tarefas</h1>
+        <p>Bem-vindo à documentação da API de Gerenciamento de Tarefas. Esta API RESTful permite criar, ler, atualizar e excluir tarefas.</p>
+
+        <h2>Endpoints</h2>
+        <h3>Listar todas as tarefas</h3>
+        <pre><code>GET /api/tasks</code></pre>
+
+        <h3>Criar uma nova tarefa</h3>
+        <pre><code>POST /api/tasks
+Content-Type: application/json
+
+{
+    "title": "Minha Nova Tarefa",
+    "description": "Descrição detalhada da tarefa.",
+    "completed": false
+}</code></pre>
+
+        <h3>Obter uma tarefa específica</h3>
+        <pre><code>GET /api/tasks/{id}</code></pre>
+
+        <h3>Atualizar uma tarefa existente</h3>
+        <pre><code>PUT /api/tasks/{id}
+Content-Type: application/json
+
+{
+    "title": "Tarefa Atualizada",
+    "completed": true
+}</code></pre>
+
+        <h3>Excluir uma tarefa</h3>
+        <pre><code>DELETE /api/tasks/{id}</code></pre>
+
+        <h2>Autor</h2>
+        <p>Gabriel Demetrios Lafis</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Gabriel Demetrios Lafis. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
