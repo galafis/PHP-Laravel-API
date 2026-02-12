@@ -1,128 +1,221 @@
-# API de Gerenciamento de Tarefas com PHP-Laravel
+# 🚀 Php Laravel Api
 
-Uma API RESTful robusta e escalável para gerenciamento de tarefas, construída com PHP e Laravel. Este projeto demonstra as melhores práticas de desenvolvimento de API, incluindo autenticação, validação, tratamento de erros e testes automatizados.
+[![PHP](https://img.shields.io/badge/PHP-8.3-777BB4.svg)](https://www.php.net/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🖼️ Imagem Hero
-
-![Imagem Hero da API de Gerenciamento de Tarefas com PHP-Laravel](docs/hero-image.png)
-
-## ✨ Funcionalidades
-
-- **Autenticação de Usuários**: Sistema completo de registro e login com Sanctum.
-- **CRUD de Tarefas**: Crie, leia, atualize e exclua tarefas.
-- **Validação de Dados**: Validação robusta de todas as entradas da API.
-- **Tratamento de Erros**: Tratamento de erros padronizado e informativo.
-- **Testes Automatizados**: Testes unitários e de funcionalidades com PHPUnit.
-
-## 🚀 Tecnologias Utilizadas
-
-![PHP](https://img.shields.io/badge/PHP-8.1+-8892BF.svg?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Composer](https://img.shields.io/badge/Composer-885630.svg?style=for-the-badge&logo=composer&logoColor=white)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-1572B6.svg?style=for-the-badge&logo=phpunit&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-
-## 🔧 Instalação e Execução
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/galafis/PHP-Laravel-API.git
-    ```
-2.  **Navegue até o diretório do projeto:**
-    ```bash
-    cd PHP-Laravel-API
-    ```
-3.  **Instale as dependências do Composer:**
-    ```bash
-    composer install
-    ```
-4.  **Configure o arquivo de ambiente:**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-5.  **Configure as credenciais do banco de dados no arquivo `.env` e execute as migrações:**
-    ```bash
-    php artisan migrate
-    ```
-6.  **Inicie o servidor de desenvolvimento:**
-    ```bash
-    php artisan serve
-    ```
-
-## 🧪 Executando os Testes
-
-```bash
-php artisan test
-```
-
-## ✒️ Autor
-
-**Gabriel Demetrios Lafis**
+[English](#english) | [Português](#português)
 
 ---
 
-# Task Management API with PHP-Laravel
+## English
 
-A robust and scalable RESTful API for task management, built with PHP and Laravel. This project demonstrates best practices for API development, including authentication, validation, error handling, and automated testing.
+### 🎯 Overview
 
-## 🖼️ Hero Image
+**Php Laravel Api** — Professional PHP-Laravel-API - Created by Gabriel Demetrios Lafis
 
-![Hero Image of the Task Management API with PHP-Laravel](docs/hero-image.png)
+Total source lines: **3,030** across **61** files in **4** languages.
 
-## ✨ Features
+### ✨ Key Features
 
-- **User Authentication**: Complete registration and login system with Sanctum.
-- **Task CRUD**: Create, read, update, and delete tasks.
-- **Data Validation**: Robust validation of all API inputs.
-- **Error Handling**: Standardized and informative error handling.
-- **Automated Tests**: Unit and feature tests with PHPUnit.
+- **Production-Ready Architecture**: Modular, well-documented, and following best practices
+- **Comprehensive Implementation**: Complete solution with all core functionality
+- **Clean Code**: Type-safe, well-tested, and maintainable codebase
+- **Easy Deployment**: Docker support for quick setup and deployment
 
-## 🚀 Technologies Used
+### 🚀 Quick Start
 
-![PHP](https://img.shields.io/badge/PHP-8.1+-8892BF.svg?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Composer](https://img.shields.io/badge/Composer-885630.svg?style=for-the-badge&logo=composer&logoColor=white)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-1572B6.svg?style=for-the-badge&logo=phpunit&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+#### Prerequisites
+- See requirements below
 
-## 🔧 Installation and Execution
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/galafis/PHP-Laravel-API.git
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd PHP-Laravel-API
-    ```
-3.  **Install Composer dependencies:**
-    ```bash
-    composer install
-    ```
-4.  **Configure the environment file:**
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-5.  **Configure database credentials in the `.env` file and run migrations:**
-    ```bash
-    php artisan migrate
-    ```
-6.  **Start the development server:**
-    ```bash
-    php artisan serve
-    ```
+#### Installation
 
-## 🧪 Running the Tests
-
+1. **Clone the repository**
 ```bash
-php artisan test
+git clone https://github.com/galafis/PHP-Laravel-API.git
+cd PHP-Laravel-API
 ```
 
-## ✒️ Author
+
+
+
+
+
+
+
+### 📁 Project Structure
+
+```
+PHP-Laravel-API/
+├── PHP-Laravel-API/
+│   └── docs/
+│       └── hero-image.txt
+├── app/
+│   ├── Console/
+│   ├── Exceptions/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   ├── Models/
+│   └── Providers/
+├── bootstrap/
+│   └── cache/
+├── config/
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeders/
+├── docs/
+├── public/
+│   └── robots.txt
+├── resources/
+│   ├── css/
+│   ├── js/
+│   │   ├── app.js
+│   │   └── bootstrap.js
+│   └── views/
+├── routes/
+├── storage/
+│   ├── app/
+│   │   └── public/
+│   ├── framework/
+│   │   ├── cache/
+│   │   ├── sessions/
+│   │   ├── testing/
+│   │   └── views/
+│   └── logs/
+├── tests/
+│   ├── Feature/
+│   └── Unit/
+├── README.md
+├── composer.json
+├── package.json
+└── vite.config.js
+```
+
+### 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| PHP | 56 files |
+| JavaScript | 3 files |
+| HTML | 1 files |
+| CSS | 1 files |
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### 👤 Author
 
 **Gabriel Demetrios Lafis**
 
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+
+---
+
+## Português
+
+### 🎯 Visão Geral
+
+**Php Laravel Api** — Professional PHP-Laravel-API - Created by Gabriel Demetrios Lafis
+
+Total de linhas de código: **3,030** em **61** arquivos em **4** linguagens.
+
+### ✨ Funcionalidades Principais
+
+- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
+- **Implementação Completa**: Solução completa com todas as funcionalidades principais
+- **Código Limpo**: Type-safe, bem testado e manutenível
+- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
+
+### 🚀 Início Rápido
+
+#### Pré-requisitos
+- Veja os requisitos abaixo
+
+
+#### Instalação
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/galafis/PHP-Laravel-API.git
+cd PHP-Laravel-API
+```
+
+
+
+
+
+
+
+### 📁 Estrutura do Projeto
+
+```
+PHP-Laravel-API/
+├── PHP-Laravel-API/
+│   └── docs/
+│       └── hero-image.txt
+├── app/
+│   ├── Console/
+│   ├── Exceptions/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   ├── Models/
+│   └── Providers/
+├── bootstrap/
+│   └── cache/
+├── config/
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeders/
+├── docs/
+├── public/
+│   └── robots.txt
+├── resources/
+│   ├── css/
+│   ├── js/
+│   │   ├── app.js
+│   │   └── bootstrap.js
+│   └── views/
+├── routes/
+├── storage/
+│   ├── app/
+│   │   └── public/
+│   ├── framework/
+│   │   ├── cache/
+│   │   ├── sessions/
+│   │   ├── testing/
+│   │   └── views/
+│   └── logs/
+├── tests/
+│   ├── Feature/
+│   └── Unit/
+├── README.md
+├── composer.json
+├── package.json
+└── vite.config.js
+```
+
+### 🛠️ Stack Tecnológica
+
+| Tecnologia | Uso |
+|------------|-----|
+| PHP | 56 files |
+| JavaScript | 3 files |
+| HTML | 1 files |
+| CSS | 1 files |
+
+### 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### 👤 Autor
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
